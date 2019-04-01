@@ -3,7 +3,7 @@
 
 Ray, D. and Chatterjee, N. "Effect of Non-Normality and Low Count Variants on Cross-Phenotype Association Tests in GWAS". *In revision*, 2019.
 
-**Key Words:** Cross-phenotype association; GWAS; Joint modeling; Multiple traits; Multivariate analysis; Non-normal traits; Proportional Odds Model; 
+**Key Words:** Cross-phenotype association; GWAS; Joint modeling; Multiple traits; Multivariate analysis; Non-normal traits; Proportional Odds Model 
 
 
 ### Requirements
