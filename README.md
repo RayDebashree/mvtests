@@ -9,6 +9,12 @@ Ray, D. and Chatterjee, N. "Effect of Non-Normality and Low Count Variants on Cr
 ### Requirements
 R (>= 3.0.1), MASS, lmtest
 
+### How to Install within R
+```{r}
+require(devtools)
+source_url("https://github.com/RayDebashree/mvtests/blob/master/mvtests_v0.2.R?raw=TRUE")
+```
+
 ### Changes
 Version 0.2 - April 1, 2019
 > First public release of the software.
