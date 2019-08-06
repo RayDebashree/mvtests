@@ -14,6 +14,8 @@ R (>= 3.0.1), MASS, lmtest
 require(devtools)
 source_url("https://github.com/RayDebashree/mvtests/blob/master/mvtests_v0.2.R?raw=TRUE")
 ```
+It is recommended to download/copy the stand-alone R program in this repository, save it in your local directory of choice and `source()` it from your local directory. When a new version of the software is available, older versions may be removed from this repository, and the above `source_url()` technique may not work.
+
 
 ### Changes
 Version 0.2 - April 1, 2019
