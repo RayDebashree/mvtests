@@ -1,7 +1,7 @@
 ### Description
-`mvtests` will be a suite of functions implementing cross-phenotype association tests. Currently, it only implements the POM-LRT approach that tests association of one or more traits with a single genetic marker using a proportional odds regression model of genotype on traits. It uses individual-level phenotype genotype data on unrelated individuals. The R function `pom()` implements this association test. Please refer/cite:
+`mvtests` will be a suite of functions implementing cross-phenotype association tests. Currently, it implements the POM-LRT approach that tests association of one or more traits with a single genetic marker using a proportional odds regression model of genotype on traits. It uses individual-level phenotype genotype data on unrelated individuals. The R function `pom()` implements this association test. It also includes functions to implement Nyholt-Šidák correction for multiple tests. Please refer/cite:
 
-Ray, D. and Chatterjee, N. "Effect of Non-Normality and Low Count Variants on Cross-Phenotype Association Tests in GWAS". *In revision*, 2019.
+Ray, D. and Chatterjee, N. "Effect of Non-Normality and Low Count Variants on Cross-Phenotype Association Tests in GWAS". *European Journal Human Genetics*, 28(3):300-312, 2020.
 
 **Key Words:** Cross-phenotype association; GWAS; Joint modeling; Multiple traits; Multivariate analysis; Non-normal traits; Proportional Odds Model 
 
@@ -18,6 +18,9 @@ It is recommended to download/copy the stand-alone R program in this repository,
 
 
 ### Changes
+Version 0.3 - June 9, 2020
+> An updated version of the software to include Nyholt-Šidák correction for multiple tests.
+
 Version 0.2 - April 1, 2019
 > First public release of the software.
 
@@ -34,4 +37,4 @@ control parameters related to the optimization.
 
 3. The genotype X takes values 0, 1 or 2. For a given sample, if X has only two possible values, a logistic regression (`glm`) is used instead of proportional odds regression (`polr`).
 
-4. Any individual with at least one missing observation in the data is removed before association test.  
+4. Any individual with at least one missing observation in the data is removed before association test.
