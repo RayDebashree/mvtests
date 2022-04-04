@@ -1,7 +1,7 @@
 ### Description
 `mvtests` will be a suite of functions implementing cross-phenotype association tests. Currently, it implements the POM-LRT approach that tests association of one or more traits with a single genetic marker using a proportional odds regression model of genotype on traits. It uses individual-level phenotype genotype data on unrelated individuals. The R function `pom()` implements this association test. It also includes functions to implement Nyholt-Šidák correction for multiple tests. Please refer/cite:
 
-Ray, D. and Chatterjee, N. "Effect of Non-Normality and Low Count Variants on Cross-Phenotype Association Tests in GWAS". *European Journal Human Genetics*, 28(3):300-312, 2020.
+Ray, D. and Chatterjee, N. "Effect of Non-Normality and Low Count Variants on Cross-Phenotype Association Tests in GWAS". *European Journal Human Genetics*, 28(3):300-312, 2020. https://www.nature.com/articles/s41431-019-0514-2
 
 **Key Words:** Cross-phenotype association; GWAS; Joint modeling; Multiple traits; Multivariate analysis; Non-normal traits; Proportional Odds Model 
 
